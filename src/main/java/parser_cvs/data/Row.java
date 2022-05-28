@@ -15,7 +15,7 @@ public class Row {
     //     }
     // }
 
-    String[] row;
+    private String[] row;
     
     public String getFormattedString(int pozition){
         return this.row[pozition].replaceAll("^\"|\"$", "").replace(',', '.');
